@@ -1,29 +1,31 @@
+import { Text, Box,} from '@chakra-ui/react'
+import React from 'react'
 export const SectionContactHeader = () => {
     return (
-        <><section class="contact common-background">
-        <div class="box">
-            <i class="fa-solid fa-location-dot"></i>
-            <h1>Dirección</h1>
-            <p>999 Carter Street</p>
-            <p>Sailor Springs, IL 62434</p>
-        </div>
-        <div class="box">
-            <i class="fa-solid fa-phone-volume"></i>
-            <h1>Telefono</h1>
-            <p>+1 618-689-9409</p>
-            <p>+1 781-254-8437</p>
-        </div>
-        <div class="box">
-            <i class="fa-solid fa-envelope"></i>
-            <h1>Email</h1>
-            <p>gonzaleosuarez@gmail.com</p>
-            <p>support@example.com</p>
-        </div>
-        <div class="box">
-            <i class="fa-regular fa-comment-dots"></i>
-            <h1>Facebook Chat</h1>
-            <p>Gonzalo Suárez</p>
-        </div>
+        <><section className="contact common-background">
+        <Box className="box">
+            <i className="fa-solid fa-location-dot"></i>
+            <Text fontSize='2xl' color= 'white'>Dirección</Text>
+            <Text fontSize='sm' color='white'>999 Carter Street</Text>
+            <Text fontSize='sm' color='white'>Sailor Springs, IL 62434</Text>
+        </Box>
+        <Box className="box">
+            <i className="fa-solid fa-phone-volume"></i>
+            <Text fontSize='2xl' color= 'white'>Telefono</Text>
+            <Text fontSize='sm' color='white'>+1 618-689-9409</Text>
+            <Text fontSize='sm' color='white'>+1 781-254-8437</Text>
+        </Box>
+        <Box className="box">
+            <i className="fa-solid fa-envelope"></i>
+            <Text fontSize='2xl' color= 'white'>Email</Text>
+            <Text fontSize='sm' color='white'>gonzaleosuarez@gmail.com</Text>
+            <Text fontSize='sm' color='white'>support@example.com</Text>
+        </Box>
+        <Box className="box">
+            <i className="fa-regular fa-comment-dots"></i>
+            <Text fontSize='2xl' color='white'>Facebook Chat</Text>
+            <Text fontSize='sm' color='white'>Gonzalo Suárez</Text>
+        </Box>
     </section></>
     )
 }

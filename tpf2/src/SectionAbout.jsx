@@ -1,42 +1,44 @@
+import { Text, Box,} from '@chakra-ui/react'
+import React from 'react'
 export const SectionAbout = () => {
     return (
-        <section id="about" class="about">
-        <h1>Sobre Mi</h1>
-        <div class="flex-container">
-            <div>
+        <section id="about" className="about">
+        <Text fontSize='4xl' textAlign="center" textColor='white' style={{marginBottom: '80px'}}>Sobre Mi</Text>
+        <Box className="flex-container">
+            <Box>
                 <img src="assets/pexels-cottonbro-2773562.jpg" alt=""/>
-            </div>
-            <div class="text-container">
-                <h1>¡Hola!</h1>
+            </Box>
+            <Box className="text-container">
+                <Text  fontSize='4xl' style={{ color: 'salmon', marginTop:'-15px'}} >¡Hola!</Text >
                 <p>Soy un estudiante con algo de experiencia previa en C# y Java. Actualmente me estoy enfocando principalmente en el desarrollo web, trabajando con HTML, CSS y JavaScript para crear sitios web atractivos y funcionales.</p>
-                <div class="about-container">
-                    <div class="info-box">
-                        <h1>Nombre:</h1>
+                <Box className="about-container">
+                    <Box className="info-box">
+                        <Text  fontSize='2xl' style={{ color: 'salmon'}}>Nombre:</Text >
                         <p>Gonzalo Leonel Suárez</p>
-                    </div>
-                    <div class="info-box">
-                        <h1>Email:</h1>
+                    </Box>
+                    <Box className="info-box">
+                        <Text  fontSize='2xl' style={{ color: 'salmon'}}>Email:</Text >
                         <p>gonzaleosuarez@gmail.com</p>
-                    </div>
-                    <div class="info-box">
-                        <h1>Telefono:</h1>
+                    </Box>
+                    <Box className="info-box">
+                        <Text  fontSize='2xl' style={{ color: 'salmon'}}>Telefono:</Text >
                         <p>+1 908-736-1801</p>
-                    </div>
-                    <div class="info-box">
-                        <h1>Twitter:</h1>
+                    </Box>
+                    <Box className="info-box">
+                        <Text  fontSize='2xl' style={{ color: 'salmon'}}>Twitter:</Text >
                         <p>gonzaleosuarez</p>
-                    </div>
-                </div>
-                <div class="contact-container">
-                    <h1 class="contact-me">CONTACTAME <i class="fa-solid fa-arrow-right"></i></h1>
-                    <button class="download-cv"><i class="fa-solid fa-download"></i> DESCARGAR CV</button>
-                </div>
-            </div>
-        </div>
-        <div class="image-box">
-            <h1>Trabajemos juntos en tu proximo proyecto</h1>
+                    </Box>
+                </Box>
+                <Box className="contact-container">
+                    <Text  fontSize='2xl' style={{ color: 'white', marginTop: '20px'}} className="contact-me">CONTACTAME <i className="fa-solid fa-arrow-right"></i></Text >
+                    <button className="download-cv"><p style={{color: 'white'}}><i className="fa-solid fa-download"></i> DESCARGAR CV</p></button>
+                </Box>
+            </Box>
+        </Box>
+        <Box className= "image-box">
+            <Text fontSize='3xl' style={{ color: 'white'}} className='image-box-text'>Trabajemos juntos en tu proximo proyecto</Text >
             <img src="assets/pexels-iliescu-victor-95204-306198.jpg" alt=""/>
-        </div>
+        </Box>
     </section>
     );
 }

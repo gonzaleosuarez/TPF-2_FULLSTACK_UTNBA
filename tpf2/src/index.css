@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: #020414;
+  background-color: #020414 !important;
   margin: 0;
   padding: 0;
 }
@@ -51,6 +51,8 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  margin-bottom: -200px;
+  margin-top: -100px;
 }
 
 .hero-content {
@@ -89,6 +91,7 @@ header {
 .hero-content p {
   font-size: 1.2em;
   color: white;
+  margin-bottom: 200px;
 }
 
 .logo-box {
@@ -131,40 +134,21 @@ header {
   text-align: center;
   color: white;
   font-size: 2em;
+  margin-bottom: 200px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 400px);
-  grid-template-rows: repeat(3, 400px);
-  justify-content: space-around;
-  padding: 100px;
-  margin-top: -350px;
-}
-
-.grid-container > div {
-  margin: 10px;
-  padding: 10px;
-  font-size: 1em;
-}
-
-.grid-container h2 {
-  color: white;
-}
-
-.grid-container p {
-  color: grey;
-}
-
-.grid-container i {
+.icon-coral {
   display: inline-block;
   color: coral;
   font-size: 3em;
 }
 
+.skills-contact-button{
+  color: 'white';
+}
+
 .about {
   padding: 50px;
-  margin-top: -550px;
 }
 
 .about h1 {
@@ -224,7 +208,6 @@ header {
 }
 
 .text-container p {
-  font-size: 0.9em;
   text-align: left;
   color: grey;
   margin-bottom: 20px; 
@@ -300,6 +283,8 @@ header {
   color: white;
   user-select: none;
   margin-right: 15px;
+  height: 54px;
+  margin-top: auto;
 }
 
 .contact-container .download-cv {
@@ -325,7 +310,7 @@ header {
   opacity: 0.5;
 }
 
-.image-box h1 {
+.image-box-text {
   position: absolute;
   top: 50%; 
   left: 50%; 
@@ -334,7 +319,6 @@ header {
   text-align: center; 
   z-index: 1; 
   white-space: nowrap;
-  margin-top: 20px;
 }
 
 .skills {
@@ -377,7 +361,6 @@ header {
 
 .flex-container-skills p {
   color: grey;
-  font-size: 0.7em;
 }
 
 .skills-bar h2 {
@@ -529,7 +512,7 @@ header {
 }
 
 .info-box h1 {
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 .info-box h2 {
@@ -567,7 +550,6 @@ header {
 
 .contact .box p {
   margin: 5px 0;
-  color: grey;
 }
 
 .contact-form {
@@ -676,7 +658,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: local;
   opacity: 0.5;
 }
 
