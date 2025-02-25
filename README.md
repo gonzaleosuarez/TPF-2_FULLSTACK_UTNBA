@@ -1,6 +1,6 @@
 Portfolio Personal
 
-Este es mi portfolio personal, creado como parte del segundo proyecto final para la certificación de Desarrollo Web Full Stack de UTN BA.
+Creado como parte del segundo proyecto final para la certificación de Desarrollo Web Full Stack de UTN BA.
 
 Características: 
 Navegación intuitiva con menú de navegación. Sección de proyectos para mostrar mis trabajos destacados. Formulario de contacto.
